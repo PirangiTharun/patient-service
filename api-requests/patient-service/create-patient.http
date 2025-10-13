@@ -1,0 +1,12 @@
+### POST creates a new patient
+POST http://localhost:4000/patients
+Content-Type: application/json
+
+{
+  "name": "Tharun Pirangi",
+  "email": "tharun.pirangi@gmail.com",
+  "address": "i don't know",
+  "dateOfBirth": "2000-01-01",
+  "registeredDate": "2025-10-11"
+}
+###
